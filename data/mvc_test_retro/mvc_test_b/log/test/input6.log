@@ -1,0 +1,78 @@
+
+Gurobi 7.5.2 (mac64) logging started Fri Nov 16 09:33:53 2018
+
+Academic license - for non-commercial use only
+Set parameter TimeLimit to value 3600
+Set parameter NodeLimit to value 2000000
+
+Gurobi Optimizer version 7.5.2 build v7.5.2rc1 (mac64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ../../../data/mvc_test/_100_100/lpfiles/test//input6.lp
+Reading time = 0.00 seconds
+OBJ: 726 rows, 100 columns, 1452 nonzeros
+Optimize a model with 726 rows, 100 columns and 1452 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 82.0000000
+Presolve removed 364 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 362 rows, 100 columns, 1035 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 6.824244e+01, 291 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   68.24244    0  100   82.00000   68.24244  16.8%     -    0s
+     0     0   68.60331    0   99   82.00000   68.60331  16.3%     -    0s
+H    0     0                      81.0000000   68.60331  15.3%     -    0s
+     0     0   68.60337    0   99   81.00000   68.60337  15.3%     -    0s
+     0     0   68.73116    0  100   81.00000   68.73116  15.1%     -    0s
+H    0     0                      80.0000000   68.73116  14.1%     -    0s
+     0     0   68.76826    0   99   80.00000   68.76826  14.0%     -    0s
+     0     0   68.76947    0   99   80.00000   68.76947  14.0%     -    0s
+     0     0   68.77003    0   99   80.00000   68.77003  14.0%     -    0s
+     0     0   68.77005    0   99   80.00000   68.77005  14.0%     -    0s
+     0     0   68.88554    0   98   80.00000   68.88554  13.9%     -    0s
+H    0     0                      77.0000000   68.88554  10.5%     -    0s
+     0     0   68.88860    0   98   77.00000   68.88860  10.5%     -    0s
+     0     0   68.89102    0   99   77.00000   68.89102  10.5%     -    0s
+     0     0   68.94821    0   99   77.00000   68.94821  10.5%     -    0s
+     0     0   68.94839    0   99   77.00000   68.94839  10.5%     -    0s
+     0     0   69.01346    0  100   77.00000   69.01346  10.4%     -    0s
+     0     0   69.02473    0   99   77.00000   69.02473  10.4%     -    0s
+     0     0   69.02562    0   99   77.00000   69.02562  10.4%     -    0s
+     0     0   69.02683    0   99   77.00000   69.02683  10.4%     -    0s
+     0     0   69.07559    0  100   77.00000   69.07559  10.3%     -    0s
+     0     0   69.07667    0  100   77.00000   69.07667  10.3%     -    0s
+     0     0   69.07683    0  100   77.00000   69.07683  10.3%     -    0s
+     0     0   69.11530    0  100   77.00000   69.11530  10.2%     -    0s
+     0     0   69.11613    0  100   77.00000   69.11613  10.2%     -    0s
+     0     0   69.11646    0  100   77.00000   69.11646  10.2%     -    0s
+     0     0   69.11903    0  100   77.00000   69.11903  10.2%     -    0s
+     0     0   69.11903    0  100   77.00000   69.11903  10.2%     -    0s
+H    0     0                      76.0000000   69.11903  9.05%     -    0s
+     0     2   69.11903    0  100   76.00000   69.11903  9.05%     -    0s
+*  101    29              11      75.0000000   70.42687  6.10%  28.8    0s
+
+Cutting planes:
+  Gomory: 1
+  Clique: 8
+  Zero half: 21
+
+Explored 664 nodes (17264 simplex iterations) in 0.43 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 6: 75 76 77 ... 82
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.500000000000e+01, best bound 7.500000000000e+01, gap 0.0000%
+
+Wrote result file '../../../data/mvc_test/_100_100/sol/test//input6.sol'
+

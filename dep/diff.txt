@@ -1,0 +1,39 @@
+Only in scip-4.0.1-affected/: .DS_Store
+Files scip-4.0.1-affected/Makefile and /Users/subrahma/Downloads/scip-4.0.1/Makefile differ
+Only in scip-4.0.1-affected/: bin
+Only in scip-4.0.1-affected/: lib
+Files scip-4.0.1-affected/make/make.linux.clang and /Users/subrahma/Downloads/scip-4.0.1/make/make.linux.clang differ
+Files scip-4.0.1-affected/make/make.project and /Users/subrahma/Downloads/scip-4.0.1/make/make.project differ
+Only in scip-4.0.1-affected/: obj
+Only in scip-4.0.1-affected/src: .DS_Store
+Files scip-4.0.1-affected/src/blockmemshell/memory.c and /Users/subrahma/Downloads/scip-4.0.1/src/blockmemshell/memory.c differ
+Files scip-4.0.1-affected/src/lpi/lpi_grb.c and /Users/subrahma/Downloads/scip-4.0.1/src/lpi/lpi_grb.c differ
+Only in scip-4.0.1-affected/src/scip: .scip.c.swp
+Files scip-4.0.1-affected/src/scip/branch_distribution.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/branch_distribution.c differ
+Only in scip-4.0.1-affected/src/scip: buildflags.c
+Files scip-4.0.1-affected/src/scip/conflict.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/conflict.c differ
+Files scip-4.0.1-affected/src/scip/cons_components.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/cons_components.c differ
+Files scip-4.0.1-affected/src/scip/def.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/def.h differ
+Files scip-4.0.1-affected/src/scip/heur_dualval.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/heur_dualval.c differ
+Files scip-4.0.1-affected/src/scip/heur_rins.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/heur_rins.c differ
+Files scip-4.0.1-affected/src/scip/heur_subnlp.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/heur_subnlp.c differ
+Only in scip-4.0.1-affected/src/scip: nodepru.c
+Only in scip-4.0.1-affected/src/scip: nodepru.h
+Only in scip-4.0.1-affected/src/scip: pub_nodepru.h
+Files scip-4.0.1-affected/src/scip/pub_sol.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/pub_sol.h differ
+Files scip-4.0.1-affected/src/scip/pub_tree.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/pub_tree.h differ
+Files scip-4.0.1-affected/src/scip/scip.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/scip.c differ
+Files scip-4.0.1-affected/src/scip/scip.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/scip.h differ
+Files scip-4.0.1-affected/src/scip/sepa_zerohalf.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/sepa_zerohalf.c differ
+Files scip-4.0.1-affected/src/scip/set.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/set.c differ
+Files scip-4.0.1-affected/src/scip/set.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/set.h differ
+Files scip-4.0.1-affected/src/scip/sol.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/sol.c differ
+Files scip-4.0.1-affected/src/scip/sol.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/sol.h differ
+Files scip-4.0.1-affected/src/scip/solve.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/solve.c differ
+Only in scip-4.0.1-affected/src/scip: struct_nodepru.h
+Files scip-4.0.1-affected/src/scip/struct_set.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/struct_set.h differ
+Files scip-4.0.1-affected/src/scip/struct_tree.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/struct_tree.h differ
+Files scip-4.0.1-affected/src/scip/tree.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/tree.c differ
+Files scip-4.0.1-affected/src/scip/tree.h and /Users/subrahma/Downloads/scip-4.0.1/src/scip/tree.h differ
+Only in scip-4.0.1-affected/src/scip: type_nodepru.h
+Files scip-4.0.1-affected/src/scip/visual.c and /Users/subrahma/Downloads/scip-4.0.1/src/scip/visual.c differ

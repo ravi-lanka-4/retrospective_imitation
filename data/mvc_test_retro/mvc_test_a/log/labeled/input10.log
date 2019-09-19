@@ -1,0 +1,82 @@
+
+Gurobi 7.5.2 (mac64) logging started Fri Nov 16 09:33:56 2018
+
+Academic license - for non-commercial use only
+Set parameter TimeLimit to value 3600
+Set parameter NodeLimit to value 2000000
+
+Gurobi Optimizer version 7.5.2 build v7.5.2rc1 (mac64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ../../../data/mvc_test/_100_100/lpfiles/labeled//input10.lp
+Reading time = 0.00 seconds
+OBJ: 765 rows, 100 columns, 1530 nonzeros
+Optimize a model with 765 rows, 100 columns and 1530 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 82.0000000
+Presolve removed 379 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 386 rows, 100 columns, 1141 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 6.973154e+01, 284 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   69.73154    0  100   82.00000   69.73154  15.0%     -    0s
+H    0     0                      79.0000000   69.73154  11.7%     -    0s
+     0     0   70.06454    0  100   79.00000   70.06454  11.3%     -    0s
+     0     0   70.07287    0   99   79.00000   70.07287  11.3%     -    0s
+     0     0   70.23378    0  100   79.00000   70.23378  11.1%     -    0s
+     0     0   70.24140    0  100   79.00000   70.24140  11.1%     -    0s
+     0     0   70.24165    0  100   79.00000   70.24165  11.1%     -    0s
+     0     0   70.24175    0  100   79.00000   70.24175  11.1%     -    0s
+     0     0   70.31797    0  100   79.00000   70.31797  11.0%     -    0s
+     0     0   70.32098    0  100   79.00000   70.32098  11.0%     -    0s
+     0     0   70.32828    0  100   79.00000   70.32828  11.0%     -    0s
+     0     0   70.32854    0  100   79.00000   70.32854  11.0%     -    0s
+     0     0   70.35204    0  100   79.00000   70.35204  10.9%     -    0s
+     0     0   70.35426    0  100   79.00000   70.35426  10.9%     -    0s
+     0     0   70.35527    0  100   79.00000   70.35527  10.9%     -    0s
+     0     0   70.38824    0  100   79.00000   70.38824  10.9%     -    0s
+     0     0   70.38941    0  100   79.00000   70.38941  10.9%     -    0s
+     0     0   70.39076    0  100   79.00000   70.39076  10.9%     -    0s
+     0     0   70.39091    0  100   79.00000   70.39091  10.9%     -    0s
+     0     0   70.39772    0  100   79.00000   70.39772  10.9%     -    0s
+H    0     0                      78.0000000   70.39772  9.75%     -    0s
+     0     0   70.39891    0  100   78.00000   70.39891  9.74%     -    0s
+     0     0   70.39892    0  100   78.00000   70.39892  9.74%     -    0s
+     0     0   70.41426    0  100   78.00000   70.41426  9.73%     -    0s
+     0     0   70.41591    0  100   78.00000   70.41591  9.72%     -    0s
+     0     0   70.42334    0  100   78.00000   70.42334  9.71%     -    0s
+     0     0   70.42466    0  100   78.00000   70.42466  9.71%     -    0s
+     0     0   70.42468    0  100   78.00000   70.42468  9.71%     -    0s
+     0     0   70.44704    0  100   78.00000   70.44704  9.68%     -    0s
+     0     0   70.44847    0  100   78.00000   70.44847  9.68%     -    0s
+     0     0   70.47746    0  100   78.00000   70.47746  9.64%     -    0s
+     0     0   70.47998    0  100   78.00000   70.47998  9.64%     -    0s
+     0     0   70.48042    0  100   78.00000   70.48042  9.64%     -    0s
+     0     0   70.48062    0  100   78.00000   70.48062  9.64%     -    0s
+     0     2   70.48062    0  100   78.00000   70.48062  9.64%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Clique: 1
+  Zero half: 25
+
+Explored 2121 nodes (48966 simplex iterations) in 1.19 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 78 79 82 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.800000000000e+01, best bound 7.800000000000e+01, gap 0.0000%
+
+Wrote result file '../../../data/mvc_test/_100_100/sol/labeled//input10.sol'
+

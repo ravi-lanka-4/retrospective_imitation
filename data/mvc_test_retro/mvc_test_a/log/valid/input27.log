@@ -1,0 +1,83 @@
+
+Gurobi 7.5.2 (mac64) logging started Fri Nov 16 09:34:09 2018
+
+Academic license - for non-commercial use only
+Set parameter TimeLimit to value 3600
+Set parameter NodeLimit to value 2000000
+
+Gurobi Optimizer version 7.5.2 build v7.5.2rc1 (mac64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ../../../data/mvc_test/_100_100/lpfiles/valid//input27.lp
+Reading time = 0.00 seconds
+OBJ: 736 rows, 100 columns, 1472 nonzeros
+Optimize a model with 736 rows, 100 columns and 1472 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 85.0000000
+Presolve removed 364 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 372 rows, 100 columns, 1068 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 6.923186e+01, 282 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   69.23186    0  100   85.00000   69.23186  18.6%     -    0s
+H    0     0                      82.0000000   69.23186  15.6%     -    0s
+     0     0   69.43633    0  100   82.00000   69.43633  15.3%     -    0s
+H    0     0                      81.0000000   69.43633  14.3%     -    0s
+     0     0   69.45474    0  100   81.00000   69.45474  14.3%     -    0s
+     0     0   69.59650    0  100   81.00000   69.59650  14.1%     -    0s
+H    0     0                      80.0000000   69.59650  13.0%     -    0s
+     0     0   69.60065    0  100   80.00000   69.60065  13.0%     -    0s
+     0     0   69.63645    0  100   80.00000   69.63645  13.0%     -    0s
+     0     0   69.64959    0  100   80.00000   69.64959  12.9%     -    0s
+     0     0   69.64979    0  100   80.00000   69.64979  12.9%     -    0s
+     0     0   69.67912    0  100   80.00000   69.67912  12.9%     -    0s
+     0     0   69.67995    0  100   80.00000   69.67995  12.9%     -    0s
+     0     0   69.67997    0  100   80.00000   69.67997  12.9%     -    0s
+     0     0   69.73066    0  100   80.00000   69.73066  12.8%     -    0s
+H    0     0                      79.0000000   69.73066  11.7%     -    0s
+     0     0   69.73544    0  100   79.00000   69.73544  11.7%     -    0s
+     0     0   69.73748    0  100   79.00000   69.73748  11.7%     -    0s
+     0     0   69.73839    0  100   79.00000   69.73839  11.7%     -    0s
+     0     0   69.73869    0  100   79.00000   69.73869  11.7%     -    0s
+     0     0   69.75291    0  100   79.00000   69.75291  11.7%     -    0s
+H    0     0                      78.0000000   69.75291  10.6%     -    0s
+     0     0   69.75443    0  100   78.00000   69.75443  10.6%     -    0s
+     0     0   69.75570    0  100   78.00000   69.75570  10.6%     -    0s
+     0     0   69.76641    0  100   78.00000   69.76641  10.6%     -    0s
+     0     0   69.76943    0  100   78.00000   69.76943  10.6%     -    0s
+     0     0   69.77020    0   99   78.00000   69.77020  10.6%     -    0s
+     0     0   69.77028    0   99   78.00000   69.77028  10.6%     -    0s
+     0     0   69.77745    0  100   78.00000   69.77745  10.5%     -    0s
+     0     0   69.77758    0  100   78.00000   69.77758  10.5%     -    0s
+     0     0   69.78267    0  100   78.00000   69.78267  10.5%     -    0s
+     0     0   69.78291    0  100   78.00000   69.78291  10.5%     -    0s
+     0     0   69.78575    0  100   78.00000   69.78575  10.5%     -    0s
+     0     2   69.78575    0  100   78.00000   69.78575  10.5%     -    0s
+H   71    36                      77.0000000   70.49623  8.45%  44.3    0s
+H  320    79                      76.0000000   72.43750  4.69%  33.0    0s
+
+Cutting planes:
+  Gomory: 2
+  Clique: 3
+  Zero half: 30
+
+Explored 698 nodes (22264 simplex iterations) in 0.55 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 76 77 78 ... 85
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.600000000000e+01, best bound 7.600000000000e+01, gap 0.0000%
+
+Wrote result file '../../../data/mvc_test/_100_100/sol/valid//input27.sol'
+

@@ -1,0 +1,81 @@
+
+Gurobi 7.5.2 (mac64) logging started Fri Nov 16 09:34:04 2018
+
+Academic license - for non-commercial use only
+Set parameter TimeLimit to value 3600
+Set parameter NodeLimit to value 2000000
+
+Gurobi Optimizer version 7.5.2 build v7.5.2rc1 (mac64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ../../../data/mvc_test/_100_100/lpfiles/valid//input21.lp
+Reading time = 0.00 seconds
+OBJ: 709 rows, 100 columns, 1418 nonzeros
+Optimize a model with 709 rows, 100 columns and 1418 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 82.0000000
+Presolve removed 330 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 379 rows, 100 columns, 1056 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 6.853929e+01, 294 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   68.53929    0  100   82.00000   68.53929  16.4%     -    0s
+H    0     0                      81.0000000   68.53929  15.4%     -    0s
+     0     0   68.72331    0  100   81.00000   68.72331  15.2%     -    0s
+H    0     0                      79.0000000   68.72331  13.0%     -    0s
+     0     0   68.75824    0  100   79.00000   68.75824  13.0%     -    0s
+     0     0   69.01134    0  100   79.00000   69.01134  12.6%     -    0s
+H    0     0                      78.0000000   69.01134  11.5%     -    0s
+     0     0   69.01942    0  100   78.00000   69.01942  11.5%     -    0s
+     0     0   69.02087    0  100   78.00000   69.02087  11.5%     -    0s
+     0     0   69.24569    0  100   78.00000   69.24569  11.2%     -    0s
+     0     0   69.24823    0  100   78.00000   69.24823  11.2%     -    0s
+     0     0   69.24823    0  100   78.00000   69.24823  11.2%     -    0s
+     0     0   69.32954    0   99   78.00000   69.32954  11.1%     -    0s
+     0     0   69.34766    0  100   78.00000   69.34766  11.1%     -    0s
+     0     0   69.35327    0  100   78.00000   69.35327  11.1%     -    0s
+     0     0   69.35335    0  100   78.00000   69.35335  11.1%     -    0s
+     0     0   69.39206    0  100   78.00000   69.39206  11.0%     -    0s
+     0     0   69.41231    0  100   78.00000   69.41231  11.0%     -    0s
+     0     0   69.41265    0  100   78.00000   69.41265  11.0%     -    0s
+     0     0   69.44061    0   99   78.00000   69.44061  11.0%     -    0s
+     0     0   69.45094    0  100   78.00000   69.45094  11.0%     -    0s
+     0     0   69.47104    0  100   78.00000   69.47104  10.9%     -    0s
+     0     0   69.47448    0  100   78.00000   69.47448  10.9%     -    0s
+     0     0   69.47494    0   99   78.00000   69.47494  10.9%     -    0s
+     0     0   69.48850    0   99   78.00000   69.48850  10.9%     -    0s
+     0     0   69.48951    0   99   78.00000   69.48951  10.9%     -    0s
+     0     0   69.51951    0  100   78.00000   69.51951  10.9%     -    0s
+H    0     0                      76.0000000   69.51951  8.53%     -    0s
+     0     0   69.53033    0  100   76.00000   69.53033  8.51%     -    0s
+     0     0   69.53047    0  100   76.00000   69.53047  8.51%     -    0s
+     0     0   69.54694    0  100   76.00000   69.54694  8.49%     -    0s
+     0     0   69.54995    0   99   76.00000   69.54995  8.49%     -    0s
+     0     0   69.55079    0  100   76.00000   69.55079  8.49%     -    0s
+     0     0   69.55088    0  100   76.00000   69.55088  8.49%     -    0s
+     0     2   69.55088    0  100   76.00000   69.55088  8.49%     -    0s
+
+Cutting planes:
+  Clique: 4
+  Zero half: 35
+
+Explored 1013 nodes (29417 simplex iterations) in 0.69 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 76 78 79 ... 82
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.600000000000e+01, best bound 7.600000000000e+01, gap 0.0000%
+
+Wrote result file '../../../data/mvc_test/_100_100/sol/valid//input21.sol'
+

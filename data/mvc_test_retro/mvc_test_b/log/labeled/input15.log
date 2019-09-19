@@ -1,0 +1,80 @@
+
+Gurobi 7.5.2 (mac64) logging started Fri Nov 16 09:34:00 2018
+
+Academic license - for non-commercial use only
+Set parameter TimeLimit to value 3600
+Set parameter NodeLimit to value 2000000
+
+Gurobi Optimizer version 7.5.2 build v7.5.2rc1 (mac64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ../../../data/mvc_test/_100_100/lpfiles/labeled//input15.lp
+Reading time = 0.00 seconds
+OBJ: 733 rows, 100 columns, 1466 nonzeros
+Optimize a model with 733 rows, 100 columns and 1466 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 81.0000000
+Presolve removed 355 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 378 rows, 100 columns, 1079 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 6.845092e+01, 294 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   68.45092    0   99   81.00000   68.45092  15.5%     -    0s
+H    0     0                      80.0000000   68.45092  14.4%     -    0s
+     0     0   68.74988    0   99   80.00000   68.74988  14.1%     -    0s
+H    0     0                      78.0000000   68.74988  11.9%     -    0s
+     0     0   68.77010    0   99   78.00000   68.77010  11.8%     -    0s
+     0     0   68.98624    0   99   78.00000   68.98624  11.6%     -    0s
+     0     0   69.00230    0   98   78.00000   69.00230  11.5%     -    0s
+     0     0   69.00238    0   99   78.00000   69.00238  11.5%     -    0s
+     0     0   69.24490    0   99   78.00000   69.24490  11.2%     -    0s
+H    0     0                      77.0000000   69.24490  10.1%     -    0s
+     0     0   69.25850    0   99   77.00000   69.25850  10.1%     -    0s
+     0     0   69.25850    0   99   77.00000   69.25850  10.1%     -    0s
+     0     0   69.31510    0  100   77.00000   69.31510  10.0%     -    0s
+     0     0   69.33930    0  100   77.00000   69.33930  9.95%     -    0s
+     0     0   69.33951    0  100   77.00000   69.33951  9.95%     -    0s
+     0     0   69.36096    0  100   77.00000   69.36096  9.92%     -    0s
+     0     0   69.37067    0  100   77.00000   69.37067  9.91%     -    0s
+     0     0   69.37157    0  100   77.00000   69.37157  9.91%     -    0s
+     0     0   69.42723    0   99   77.00000   69.42723  9.83%     -    0s
+     0     0   69.44331    0   98   77.00000   69.44331  9.81%     -    0s
+     0     0   69.44606    0   99   77.00000   69.44606  9.81%     -    0s
+     0     0   69.44611    0   99   77.00000   69.44611  9.81%     -    0s
+     0     0   69.45120    0   98   77.00000   69.45120  9.80%     -    0s
+H    0     0                      76.0000000   69.45120  8.62%     -    0s
+     0     0   69.45156    0   99   76.00000   69.45156  8.62%     -    0s
+     0     0   69.47813    0   98   76.00000   69.47813  8.58%     -    0s
+     0     0   69.48107    0   98   76.00000   69.48107  8.58%     -    0s
+     0     0   69.51558    0   96   76.00000   69.51558  8.53%     -    0s
+     0     0   69.51665    0   98   76.00000   69.51665  8.53%     -    0s
+     0     0   69.51735    0   98   76.00000   69.51735  8.53%     -    0s
+     0     0   69.51736    0   98   76.00000   69.51736  8.53%     -    0s
+     0     0   69.51779    0   99   76.00000   69.51779  8.53%     -    0s
+     0     0   69.51779    0   99   76.00000   69.51779  8.53%     -    0s
+     0     2   69.51779    0   99   76.00000   69.51779  8.53%     -    0s
+
+Cutting planes:
+  Clique: 5
+  Zero half: 29
+
+Explored 907 nodes (25112 simplex iterations) in 0.58 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 76 77 78 ... 81
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.600000000000e+01, best bound 7.600000000000e+01, gap 0.0000%
+
+Wrote result file '../../../data/mvc_test/_100_100/sol/labeled//input15.sol'
+

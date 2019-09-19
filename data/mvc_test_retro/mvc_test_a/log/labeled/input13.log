@@ -1,0 +1,79 @@
+
+Gurobi 7.5.2 (mac64) logging started Fri Nov 16 09:33:59 2018
+
+Academic license - for non-commercial use only
+Set parameter TimeLimit to value 3600
+Set parameter NodeLimit to value 2000000
+
+Gurobi Optimizer version 7.5.2 build v7.5.2rc1 (mac64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ../../../data/mvc_test/_100_100/lpfiles/labeled//input13.lp
+Reading time = 0.00 seconds
+OBJ: 707 rows, 100 columns, 1414 nonzeros
+Optimize a model with 707 rows, 100 columns and 1414 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 83.0000000
+Presolve removed 339 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 368 rows, 100 columns, 1037 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 6.824719e+01, 303 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   68.24719    0   99   83.00000   68.24719  17.8%     -    0s
+H    0     0                      78.0000000   68.24719  12.5%     -    0s
+     0     0   68.52529    0   99   78.00000   68.52529  12.1%     -    0s
+H    0     0                      77.0000000   68.52529  11.0%     -    0s
+     0     0   68.53264    0   99   77.00000   68.53264  11.0%     -    0s
+     0     0   68.71077    0  100   77.00000   68.71077  10.8%     -    0s
+     0     0   68.71398    0  100   77.00000   68.71398  10.8%     -    0s
+     0     0   68.71472    0  100   77.00000   68.71472  10.8%     -    0s
+     0     0   68.71508    0  100   77.00000   68.71508  10.8%     -    0s
+     0     0   68.71510    0  100   77.00000   68.71510  10.8%     -    0s
+     0     0   68.77840    0   99   77.00000   68.77840  10.7%     -    0s
+H    0     0                      76.0000000   68.77840  9.50%     -    0s
+     0     0   68.78978    0  100   76.00000   68.78978  9.49%     -    0s
+     0     0   68.79006    0  100   76.00000   68.79006  9.49%     -    0s
+     0     0   68.84220    0  100   76.00000   68.84220  9.42%     -    0s
+     0     0   68.84695    0  100   76.00000   68.84695  9.41%     -    0s
+     0     0   68.84789    0  100   76.00000   68.84789  9.41%     -    0s
+     0     0   68.84789    0  100   76.00000   68.84789  9.41%     -    0s
+     0     0   68.87368    0  100   76.00000   68.87368  9.38%     -    0s
+     0     0   68.88642    0  100   76.00000   68.88642  9.36%     -    0s
+     0     0   68.88714    0  100   76.00000   68.88714  9.36%     -    0s
+     0     0   68.88714    0  100   76.00000   68.88714  9.36%     -    0s
+     0     0   68.91200    0  100   76.00000   68.91200  9.33%     -    0s
+     0     0   68.91818    0  100   76.00000   68.91818  9.32%     -    0s
+     0     0   68.91943    0  100   76.00000   68.91943  9.32%     -    0s
+     0     0   68.92111    0  100   76.00000   68.92111  9.31%     -    0s
+     0     0   68.92112    0  100   76.00000   68.92112  9.31%     -    0s
+     0     0   68.93626    0  100   76.00000   68.93626  9.29%     -    0s
+     0     0   68.93844    0  100   76.00000   68.93844  9.29%     -    0s
+     0     0   68.93849    0  100   76.00000   68.93849  9.29%     -    0s
+     0     0   68.94105    0   99   76.00000   68.94105  9.29%     -    0s
+     0     0   68.94105    0   99   76.00000   68.94105  9.29%     -    0s
+     0     2   68.94105    0   99   76.00000   68.94105  9.29%     -    0s
+
+Cutting planes:
+  Clique: 4
+  Zero half: 26
+
+Explored 1382 nodes (30622 simplex iterations) in 0.67 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 76 77 78 83 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.600000000000e+01, best bound 7.600000000000e+01, gap 0.0000%
+
+Wrote result file '../../../data/mvc_test/_100_100/sol/labeled//input13.sol'
+

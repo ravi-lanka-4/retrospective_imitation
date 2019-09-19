@@ -1,0 +1,89 @@
+
+Gurobi 7.5.2 (mac64) logging started Fri Nov 16 09:33:52 2018
+
+Academic license - for non-commercial use only
+Set parameter TimeLimit to value 3600
+Set parameter NodeLimit to value 2000000
+
+Gurobi Optimizer version 7.5.2 build v7.5.2rc1 (mac64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ../../../data/mvc_test/_100_100/lpfiles/test//input3.lp
+Reading time = 0.00 seconds
+OBJ: 737 rows, 100 columns, 1474 nonzeros
+Optimize a model with 737 rows, 100 columns and 1474 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 80.0000000
+Presolve removed 366 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 371 rows, 100 columns, 1082 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 7.019522e+01, 278 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   70.19522    0  100   80.00000   70.19522  12.3%     -    0s
+H    0     0                      79.0000000   70.19522  11.1%     -    0s
+     0     0   70.45045    0   99   79.00000   70.45045  10.8%     -    0s
+     0     0   70.47840    0   99   79.00000   70.47840  10.8%     -    0s
+     0     0   70.52355    0  100   79.00000   70.52355  10.7%     -    0s
+     0     0   70.54918    0  100   79.00000   70.54918  10.7%     -    0s
+     0     0   70.55200    0  100   79.00000   70.55200  10.7%     -    0s
+     0     0   70.55227    0  100   79.00000   70.55227  10.7%     -    0s
+     0     0   70.55227    0  100   79.00000   70.55227  10.7%     -    0s
+     0     0   70.56571    0  100   79.00000   70.56571  10.7%     -    0s
+     0     0   70.56616    0  100   79.00000   70.56616  10.7%     -    0s
+     0     0   70.58434    0  100   79.00000   70.58434  10.7%     -    0s
+H    0     0                      78.0000000   70.58434  9.51%     -    0s
+     0     0   70.58853    0  100   78.00000   70.58853  9.50%     -    0s
+     0     0   70.58860    0   99   78.00000   70.58860  9.50%     -    0s
+     0     0   70.70462    0   98   78.00000   70.70462  9.35%     -    0s
+     0     0   70.70627    0   98   78.00000   70.70627  9.35%     -    0s
+     0     0   70.70690    0   98   78.00000   70.70690  9.35%     -    0s
+     0     0   70.73683    0   98   78.00000   70.73683  9.31%     -    0s
+     0     0   70.73873    0   98   78.00000   70.73873  9.31%     -    0s
+     0     0   70.75381    0   99   78.00000   70.75381  9.29%     -    0s
+     0     0   70.75833    0   99   78.00000   70.75833  9.28%     -    0s
+     0     0   70.75971    0   99   78.00000   70.75971  9.28%     -    0s
+     0     0   70.77050    0  100   78.00000   70.77050  9.27%     -    0s
+     0     0   70.77169    0  100   78.00000   70.77169  9.27%     -    0s
+     0     0   70.77174    0  100   78.00000   70.77174  9.27%     -    0s
+     0     0   70.80774    0  100   78.00000   70.80774  9.22%     -    0s
+     0     0   70.81149    0  100   78.00000   70.81149  9.22%     -    0s
+     0     0   70.81197    0  100   78.00000   70.81197  9.22%     -    0s
+     0     0   70.82633    0  100   78.00000   70.82633  9.20%     -    0s
+     0     0   70.82829    0  100   78.00000   70.82829  9.19%     -    0s
+     0     0   70.82912    0  100   78.00000   70.82912  9.19%     -    0s
+     0     0   70.84189    0   99   78.00000   70.84189  9.18%     -    0s
+     0     0   70.84544    0  100   78.00000   70.84544  9.17%     -    0s
+     0     0   70.84544    0  100   78.00000   70.84544  9.17%     -    0s
+     0     0   70.88447    0  100   78.00000   70.88447  9.12%     -    0s
+     0     0   70.89182    0  100   78.00000   70.89182  9.11%     -    0s
+     0     0   70.90308    0  100   78.00000   70.90308  9.10%     -    0s
+     0     0   70.90313    0  100   78.00000   70.90313  9.10%     -    0s
+     0     0   70.90313    0  100   78.00000   70.90313  9.10%     -    0s
+     0     2   70.90313    0   99   78.00000   70.90313  9.10%     -    0s
+*   27    11              11      76.0000000   71.05126  6.51%  33.4    0s
+
+Cutting planes:
+  Clique: 6
+  MIR: 1
+  Zero half: 27
+
+Explored 369 nodes (12027 simplex iterations) in 0.45 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 76 78 79 80 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.600000000000e+01, best bound 7.600000000000e+01, gap 0.0000%
+
+Wrote result file '../../../data/mvc_test/_100_100/sol/test//input3.sol'
+
