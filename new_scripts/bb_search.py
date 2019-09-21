@@ -376,6 +376,10 @@ class FileHandler:
 
   def getNormF(self, index, tmp=True):
     cF = self.inpF.replace('/%s/'%(self.suffix), '/policy/')
+    if self.isfile:
+      # Since the files have train/test/valid appended to their name
+      cF = os.path.dirname(cF)
+
     if tmp:
       return self.scratch + os.path.dirname(cF) + '/searchPolicy.%d.norm'%(index)
     else:
